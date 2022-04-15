@@ -5,7 +5,6 @@ import videosrc from "../assets/video.mp4";
 function Hero() {
   return (
     <div id="home" className="w-full px-4 md:px-0 h-[90vh] bg-[#1A1A40]">
-      <div className="overlay"></div>
       {/* <video className="h-full w-full absolute " src={videosrc} autoPlay loop muted /> */}
       <div className="max-w-[1000px] mx-auto w-full h-full flex text-white flex-col md:px-8 px-3 justify-center">
         <p className="md:text-xl font-semibold text-red-500">Hi, My name is</p>
